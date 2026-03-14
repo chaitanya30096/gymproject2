@@ -1,0 +1,41 @@
+body{
+font-family:Arial;
+transition:0.4s;
+margin:0;
+
+/* full screen background */
+background-image:url("../images1/background.jpeg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+height:100vh;
+}
+
+/* dark mode */
+.dark{
+background:#121212;
+color:white;
+}
+
+/* exercise cards */
+.muscle-card{
+padding:40px;
+text-decoration:none;
+color:black;
+transition:0.3s;
+}
+
+.muscle-card:hover{
+transform:scale(1.1);
+background:#f4f4f4;
+}
+
+/* animation */
+.fade-in{
+animation:fade 2s;
+}
+
+@keyframes fade{
+from{opacity:0}
+to{opacity:1}
+}
